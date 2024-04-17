@@ -15,7 +15,7 @@ const Header = () => {
                     <div className='flex items-center gap-2'>Schedule <img src={downArrow} alt='musik' className='h-2' /></div>
                     <div>Contact US</div>
                 </div>
-                <button className='uppercase py-3 px-10 bg-white rounded-lg | text-md font-medium text-[#381DDB]'>Get Tickets</button>
+                <button className='uppercase py-3 px-10 bg-white rounded-lg | text-md font-bold text-[#381DDB]'>Get Tickets</button>
             </div>
         </div>
     )
