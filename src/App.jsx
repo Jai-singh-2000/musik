@@ -1,10 +1,11 @@
 import Banner from "./components/Banner/Banner"
-import Header from "./components/Header/Header"
+import Category from "./components/Category/Category"
 
 function App() {
   return (
-    <div className="">
+    <div>
       <Banner/>
+      <Category/>
     </div>
 
   )

@@ -7,4 +7,8 @@
     color: transparent;
     -webkit-text-stroke: 2px rgb(179, 179, 179);
   }
+
+  .centerContainer {
+    @apply max-w-[120rem] xl:px-1 lg:px-8 px-5 mx-auto;
+  }
 }
