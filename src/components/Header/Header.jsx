@@ -4,7 +4,7 @@ import downArrow from "../../assets/icons/downArrow.png"
 
 const Header = () => {
     return (
-        <div className='container h-20 flex justify-between '>
+        <div className='container h-20 flex justify-between'>
             <div className='flex items-center'>
                 <img src={logo} alt='musik' />
             </div>
