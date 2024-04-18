@@ -1,8 +1,14 @@
-# React + Vite
+# Musik Live
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://musik-jai.netlify.app/
 
-Currently, two official plugins are available:
+## Musik Player
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Musik is a custom event landing website with beautiful design with responsiveness for all devices
+
+
+## Tech Stack
+
+React Js, TailwindCSS
+
+

@@ -7,10 +7,10 @@ import myne from "../../assets/images/myne.png"
 
 const Testimonial = () => {
     return (
-        <div className='my-28 centerContainer'>
-            <div className='text-4xl font-bold text-center'>Testimonials</div>
+        <div className='my-20 centerContainer'>
+            <div className='text-2xl md:text-3xl xl:text-4xl  font-bold text-center'>Testimonials</div>
 
-            <div className='mt-10 flex overflow-x-hidden'>
+            <div className='mt-10 flex flex-col lg:flex-row flex-wrap justify-between xl:overflow-x-hidden'>
                 <TextCard image={ellie} name='Ellie James' website='ipsum.com' />
                 <TextCard image={johhny} name='Johhny Doe' website='ipsum.com' active={true}/>
                 <TextCard image={myne} name='Myne Barack' website='ipsum.com' />
@@ -23,7 +23,7 @@ export default Testimonial
 
 const TextCard = ({ active = false,image="",name="",website="" }) => {
     return (
-        <div className={`w-[770px] flex flex-col items-center px-4 relative ${!active && "opacity-50 scale-90"}`}>
+        <div className={`flex-[0.3] lg:w-[33%] flex flex-col items-center px-4 relative ${!active && "opacity-50 scale-90"} p-2`}>
 
             <div className='p-10 pb-14 relative  bg-[#f8f8f8]'>
                 <img src={upperLeft} className='absolute left-4 top-4' />
