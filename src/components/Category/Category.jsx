@@ -10,7 +10,7 @@ const Category = () => {
         <div className='my-48'>
             <div className='container text-4xl font-bold'><span className='text-[#381DDB]'>Explore</span> By Category</div>
 
-            <div className='mt-10  gap-4 flex centerContainer'>
+            <div className='mt-10  gap-4 flex centerContainer overflow-x-hidden'>
                 <CategoryBox icon={popIcon} title={"pop"} />
                 <CategoryBox icon={folkIcon} title={"folk"} />
                 <CategoryBox icon={saxophoneIcon} title={"instrumental"} active={true} />

@@ -12,40 +12,40 @@ const Banner = () => {
         isEnded: false,
     });
 
-    useEffect(() => {
-        const countDownDate = new Date("April 19, 2024 00:00:00").getTime();
+    // useEffect(() => {
+    //     const countDownDate = new Date("April 19, 2024 00:00:00").getTime();
 
-        const countdownInterval = setInterval(() => {
-            const now = new Date().getTime();
-            const distance = countDownDate - now;
+    //     const countdownInterval = setInterval(() => {
+    //         const now = new Date().getTime();
+    //         const distance = countDownDate - now;
 
-            if (distance < 0) {
-                clearInterval(countdownInterval);
-                setTimeLeft({
-                    ...timeLeft,
-                    isEnded: true,
-                });
-                return;
-            }
+    //         if (distance < 0) {
+    //             clearInterval(countdownInterval);
+    //             setTimeLeft({
+    //                 ...timeLeft,
+    //                 isEnded: true,
+    //             });
+    //             return;
+    //         }
 
-            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    //         const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    //         const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    //         const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    //         const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-            setTimeLeft({
-                days: days.toString().padStart(2, '0'),
-                hours: hours.toString().padStart(2, '0'),
-                minutes: minutes.toString().padStart(2, '0'),
-                seconds: seconds.toString().padStart(2, '0'),
-                isEnded: false,
-            });
-        }, 1000);
+    //         setTimeLeft({
+    //             days: days.toString().padStart(2, '0'),
+    //             hours: hours.toString().padStart(2, '0'),
+    //             minutes: minutes.toString().padStart(2, '0'),
+    //             seconds: seconds.toString().padStart(2, '0'),
+    //             isEnded: false,
+    //         });
+    //     }, 1000);
 
-        return () => {
-            clearInterval(countdownInterval);
-        };
-    }, []);
+    //     return () => {
+    //         clearInterval(countdownInterval);
+    //     };
+    // }, []);
 
 
     return (
