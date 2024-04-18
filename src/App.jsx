@@ -10,12 +10,12 @@ function App() {
   return (
     <div>
       <Banner />
-      {/* <Category />
-      <About />
-      <Event />
-      <Price/>
-      <Testimonial/>
-      <Footer/> */}
+      <Category />
+      {/* <About /> */}
+      {/* <Event /> */}
+      {/* <Price/> */}
+      {/* <Testimonial/> */}
+      {/* <Footer/> */}
     </div>
 
   )
