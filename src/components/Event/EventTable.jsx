@@ -10,7 +10,8 @@ import UpcomingButton from './UpcomingButton'
 
 const EventTable = () => {
     return (
-        <div className='mt-20 border divide-y divide-gray-200'>
+        <div className='mt-10 md:mt-20 border divide-y divide-gray-200 '>
+
             <TableHeading />
             <TableRow time='11:00 AM to 12:00 PM' content='Vestibulum vel eros vel metus lacinia feugiat a nec metus.' button={<PreviewButton />}>
                 <Speaker image={yuiImage} name={"Yui Ronald"} booth={"2F12"} />
@@ -42,9 +43,9 @@ export default EventTable
 
 const Speaker = ({ image, name, booth }) => {
     return (
-        <div className='flex gap-2'>
-            <img src={image} className='size-[56px] rounded-full' />
-            <div className='text-[16px] leading-[24px]'>
+        <div className='flex flex-col md:flex-row gap-2'>
+            <img src={image} className='size-[40px] sm:size-[48px] md:size-[56px] rounded-full' />
+            <div className='text-[10px] md:text-[12px] sm:text-[14px] xl:text-[16px] leading-[24px]'>
                 <div className=' font-bold '>{name}</div>
                 <div className='text-[#949396]'>Booth: <span className='font-bold text-[#8e8d90] uppercase'>{booth}</span></div>
             </div>
@@ -54,7 +55,7 @@ const Speaker = ({ image, name, booth }) => {
 
 const TableHeading = () => {
     return (
-        <div className='grid grid-cols-12 bg-[#efecfc] text-[24px] font-semibold leading-[38px] p-8 rounded-t-xl'>
+        <div className='grid grid-cols-12 bg-[#efecfc] text-[16px] md:text-[20px] lg:text-[24px] font-semibold leading-[38px] p-8 rounded-t-xl'>
             <div className='col-span-3'>Time</div>
             <div className='col-span-4'>Content</div>
             <div className='col-span-5'>Speakers</div>
@@ -64,9 +65,9 @@ const TableHeading = () => {
 
 const TableRow = ({ time = "", content = "", button, children }) => {
     return (
-        <div className='grid grid-cols-12 p-8'>
-            <div className='col-span-3 text-[16px] leading-[24px] text-[#222222] '>{time}</div>
-            <div className='col-span-4 text-[16px] leading-[24px] text-[#222222] font-bold w-[95%]'>{content}</div>
+        <div className='grid grid-cols-12 py-8 px-4 md:px-8'>
+            <div className='col-span-3 text-[10px] sm:text-[12px] md:text-[16px] leading-[24px] text-[#222222] '>{time}</div>
+            <div className='col-span-4 text-[12px] md:text-[16px] leading-[24px] text-[#222222] font-bold w-[95%]'>{content}</div>
             <div className='col-span-3 flex flex-col gap-2 justify-center'>
                 {
                     children

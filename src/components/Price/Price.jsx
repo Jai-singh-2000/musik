@@ -4,9 +4,9 @@ import PriceCard from './PriceCard'
 const Price = () => {
     return (
         <div className='my-12 sm:my-14 md:my-16 lg:my-18 xl:my-20 container'>
-            <div className='text-2xl md:text-3xl xl:text-4xl font-bold text-center'>Choose a Tier that's right for you</div>
+            <div className='text-2xl sm:text-3xl xl:text-4xl font-bold text-center'>Choose a Tier that's right for you</div>
 
-            <div className='flex flex-wrap justify-around gap-12 sm:gap-5 xl:gap-8 mt-20 '>
+            <div className='flex flex-wrap justify-around gap-12 sm:gap-10 md:gap-8 xl:gap-8 mt-20 '>
 
                 <PriceCard type={"Basic"} price={"100"} seat={"1 Seat Available"} access={"Access to Wifi Router"} food={"Free Food & coffee"} borderColor={'border-black'}>
 

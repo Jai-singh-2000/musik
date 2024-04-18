@@ -12,7 +12,7 @@ function App() {
       <Banner />
       <Category />
       <About />
-      {/* <Event /> */}
+      <Event />
       <Price/>
       <Testimonial/>
       <Footer/>

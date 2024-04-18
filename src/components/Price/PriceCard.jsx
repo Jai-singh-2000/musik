@@ -5,7 +5,7 @@ const PriceCard = ({ type, price, seat, wifiAvailable = "false", foodAvailable =
         <div className={`h-[400px] md:h-[350px] lg:h-[400px] w-[65%] sm:w-[60%] md:w-[30%] lg:flex-[0.3] xl:w-[370px] py-4 flex flex-col items-center justify-around shadow-2xl rounded-xl border-t-4  ${borderColor} capitalize`}>
 
             <div className='flex flex-col items-center'>
-                <div className={`text-2xl md:text-xl xltext-2xl leading-[38px] font-extrabold text-[${colorHex && colorHex}]`}>{type}</div>
+                <div className={`text-2xl md:text-xl xl:text-2xl leading-[38px] font-extrabold text-[${colorHex && colorHex}]`}>{type}</div>
                 <div className={`text-[45px] md:text-[40px] lg:text-[55px] xl:text-[60px]leading-[73.14px] font-bold text-[${colorHex && colorHex}]`}>${price}</div>
             </div>
 
