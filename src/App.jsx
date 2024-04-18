@@ -3,6 +3,7 @@ import Category from "./components/Category/Category"
 import About from "./components/About/About"
 import Event from "./components/Event/Event"
 import Price from "./components/Price/Price"
+import Testimonial from "./components/Testimonial/Testimonial"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Event />
       <Price/>
+      <Testimonial/>
     </div>
 
   )
