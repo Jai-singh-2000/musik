@@ -13,7 +13,7 @@ const Footer = () => {
                     <img src={logo} alt='musik' />
                 </div>
 
-                <div className='flex justify-between items-center'>
+                <div className='flex justify-between items-end'>
                     <div className='flex gap-10 uppercase text-white text-[14px] leading-[20px] font-medium'>
                         <div>home</div>
                         <div>company</div>

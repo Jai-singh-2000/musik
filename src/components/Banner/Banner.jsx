@@ -52,7 +52,7 @@ const Banner = () => {
         <div className='relative bg-no-repeat w-full bg-cover h-[986px] flex flex-col' style={{ backgroundImage: `url(${bannerImage})` }}>
             <Header />
 
-            <div className='container flex flex-col justify-center flex-1 w-[880px] space-y-12'>
+            {/* <div className='container flex flex-col justify-center flex-1 w-[880px] space-y-12'>
 
                 <div className='text-[80px] capitalize font-bold text-center text-white leading-[87.77px]'>The Best experience of <br /> <span className='text-[#ffa3a3]'>music</span>  in 2021</div>
 
@@ -68,9 +68,9 @@ const Banner = () => {
                         Watch Video
                     </div>
                 </div>
-            </div>
+            </div> */}
 
-            <div className='container flex justify-between'>
+            {/* <div className='container flex justify-between'>
                 <div className="text-[144px] font-bold hollow">
                     {timeLeft?.days}d
                 </div>
@@ -83,7 +83,7 @@ const Banner = () => {
                 <div className="text-[144px] font-bold hollow">
                     {timeLeft?.seconds}s
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

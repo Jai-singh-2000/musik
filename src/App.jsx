@@ -10,12 +10,12 @@ function App() {
   return (
     <div>
       <Banner />
-      <Category />
+      {/* <Category />
       <About />
       <Event />
       <Price/>
       <Testimonial/>
-      <Footer/>
+      <Footer/> */}
     </div>
 
   )
