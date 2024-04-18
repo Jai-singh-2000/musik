@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import bannerImage from "../../assets/banner.jpg"
+import bannerImage from "../../assets/images/banner.jpg"
 import playIcon from "../../assets/icons/play.png"
 import Header from '../Header/Header'
 
@@ -71,16 +71,16 @@ const Banner = () => {
             </div>
 
             <div className='container flex justify-between'>
-                <div class="text-[144px] font-bold hollow">
+                <div className="text-[144px] font-bold hollow">
                     {timeLeft?.days}d
                 </div>
-                <div class="text-[144px] font-bold hollow">
+                <div className="text-[144px] font-bold hollow">
                     {timeLeft?.hours}h
                 </div>
-                <div class="text-[144px] font-bold hollow">
+                <div className="text-[144px] font-bold hollow">
                     {timeLeft?.minutes}m
                 </div>
-                <div class="text-[144px] font-bold hollow">
+                <div className="text-[144px] font-bold hollow">
                     {timeLeft?.seconds}s
                 </div>
             </div>
