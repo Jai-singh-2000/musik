@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import bannerImage from "../../assets/banner.jpg"
+import bannerImage from "../../assets/images/banner.jpg"
 import playIcon from "../../assets/icons/play.png"
 import Header from '../Header/Header'
 
