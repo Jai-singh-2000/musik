@@ -13,7 +13,7 @@ function App() {
       <Category />
       <About />
       {/* <Event /> */}
-      {/* <Price/> */}
+      <Price/>
       {/* <Testimonial/> */}
       <Footer/>
     </div>
