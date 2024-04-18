@@ -1,17 +1,23 @@
-import React from 'react'
 import aboutImage from "../../assets/images/about.png"
 import aboutBackImage from "../../assets/images/aboutBack.png"
+import rightBlueScale from "../../assets/tools/rightBlueScale.png"
+import blueBall from "../../assets/tools/blueBall.png"
+import bluePairStairs from "../../assets/tools/bluePairStairs.png"
 
 const About = () => {
     return (
-        <div className='my-40 container flex flex-col md:flex-row items-center  md:justify-around xl:justify-evenly '>
-
+        <div className='py-40 container flex flex-col md:flex-row items-center  md:justify-around xl:justify-evenly relative '>
+            
+            
+            <img src={rightBlueScale} alt='blue-scale' className='absolute top-0 sm:top-10 left-0 sm:left-20' />
+            <img src={blueBall} alt='blue-ball' className='absolute top-10 sm:top-20 right-0 sm:right-20' />
+            <img src={bluePairStairs} alt='blue-ball' className='absolute bottom-0 sm:-bottom-20 left-0 sm:left-20' />
 
             <div className='bg-no-repeat size-[220px] sm:size-[300px] md:size-[320px] lg:size-[390px] xl:size-[480px]' style={{ backgroundImage: `url(${aboutBackImage})` }}>
                 <img src={aboutImage} className='relative left-10 sm:left-20 md:left-12 top-10 sm:top-20 md:top-12  size-[220px] sm:size-[300px] md:size-[320px] lg:size-[390px] xl:size-[480px]' />
             </div>
 
-            <div className='mt-20 sm:mt-32 w-[70%]  xl:mt-0 flex-[0.65] lg:flex-[0.48] flex flex-col justify-center items-start gap-10 sm:gap-12 md:gap-14 lg:gap-16'>
+            <div className='mt-20 sm:mt-32 w-[70%] xl:mt-0 flex-[0.65] lg:flex-[0.48] flex flex-col justify-center items-start gap-10 sm:gap-12 md:gap-14 lg:gap-16'>
 
                 <div className='space-y-2 lg:space-y-4 '>
                     <div className='text-[28px] md:text-[30px] xl:text-[34px] font-bold leading-[44.2px]'>About Musik</div>

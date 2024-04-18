@@ -7,7 +7,7 @@ import myne from "../../assets/images/myne.png"
 
 const Testimonial = () => {
     return (
-        <div className='my-28 centerContainer'>
+        <div className='my-20 centerContainer'>
             <div className='text-2xl md:text-3xl xl:text-4xl  font-bold text-center'>Testimonials</div>
 
             <div className='mt-10 flex flex-col lg:flex-row flex-wrap justify-between xl:overflow-x-hidden'>

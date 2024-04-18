@@ -1,30 +1,39 @@
 import React, { useState } from 'react'
 import { eventArr } from '../../utils/constants'
 import EventTable from './EventTable'
+import blueOutlineBall from "../../assets/tools/blueOutlineBall.png"
+import blueStairs from "../../assets/tools/blueStairs.png"
+import redStairs from "../../assets/tools/redStairs.png"
 
 const Event = () => {
     const [activeTab, setActiveTab] = useState(0)
     return (
-        <div className='my-40 container flex justify-center'>
+        <div className='mt-20 md:mt-40 bg-gradient-to-b from-[#381DDB0D] to-[#381DDB00]'>
+            <div className='py-40 container flex justify-center relative'>
+                <img src={blueOutlineBall} alt='blue-ball' className='absolute z-50 top-20 sm:top-[35rem] left-0' />
+                <img src={blueStairs} alt='blue-ball' className='absolute z-50 bottom-20 sm:bottom-64 right-0' />
+                <img src={redStairs} alt='blue-ball' className='absolute z-50 bottom-10 sm:bottom-48 right-0' />
 
-            <div className='w-[90%] sm:w-[85%] md:[w-80%] lg:w-[70%]'>
-                <div className='text-2xl md:text-3xl xl:text-4xl  font-bold leading-[44.2px]'>Event Schedule</div>
+                <div className='w-[90%] sm:w-[85%] md:[w-80%] lg:w-[70%]'>
+                    <div className='text-2xl md:text-3xl xl:text-4xl  font-bold leading-[44.2px]'>Event Schedule</div>
 
-                <div className='mt-10 '>
+                    <div className='mt-10 '>
 
-                    <div className='flex justify-between'>
-                        {
-                            eventArr?.map((obj, index) => {
-                                return <Tab key={obj?.id} day={obj?.day} date={obj?.date} active={activeTab === index} handleActive={() => setActiveTab(index)} />
-                            })
-                        }
+                        <div className='flex justify-between'>
+                            {
+                                eventArr?.map((obj, index) => {
+                                    return <Tab key={obj?.id} day={obj?.day} date={obj?.date} active={activeTab === index} handleActive={() => setActiveTab(index)} />
+                                })
+                            }
+                        </div>
+
+                        <EventTable />
+
                     </div>
-
-                    <EventTable />
-
                 </div>
             </div>
         </div>
+
     )
 }
 
