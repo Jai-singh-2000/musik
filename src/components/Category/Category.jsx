@@ -10,7 +10,7 @@ const Category = () => {
         <div className='my-16 sm:my-20 md:my-28 lg:my-32 xl:my-48'>
             <div className='container pl-10 md:pl-6 xl:pl-0 text-xl sm:text-2xl md:text-4xl font-bold'><span className='text-[#381DDB]'>Explore</span> By Category</div>
 
-            <div className='mt-10 gap-8 flex flex-wrap xl:flex-nowrap justify-center centerContainer lg:overflow-x-hidden '>
+            <div className='mt-10 gap-8 flex flex-wrap xl:flex-nowrap justify-center centerContainer xl:overflow-x-hidden '>
                 <CategoryBox icon={popIcon} title={"pop"} />
                 <CategoryBox icon={folkIcon} title={"folk"} />
                 <CategoryBox icon={saxophoneIcon} title={"instrumental"} active={true} />

@@ -11,7 +11,7 @@ function App() {
     <div>
       <Banner />
       <Category />
-      {/* <About /> */}
+      <About />
       {/* <Event /> */}
       {/* <Price/> */}
       {/* <Testimonial/> */}
