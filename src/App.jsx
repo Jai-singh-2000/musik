@@ -15,7 +15,7 @@ function App() {
       {/* <Event /> */}
       {/* <Price/> */}
       {/* <Testimonial/> */}
-      {/* <Footer/> */}
+      <Footer/>
     </div>
 
   )
