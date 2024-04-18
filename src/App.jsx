@@ -4,6 +4,7 @@ import About from "./components/About/About"
 import Event from "./components/Event/Event"
 import Price from "./components/Price/Price"
 import Testimonial from "./components/Testimonial/Testimonial"
+import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Event />
       <Price/>
       <Testimonial/>
+      <Footer/>
     </div>
 
   )
