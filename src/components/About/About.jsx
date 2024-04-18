@@ -4,14 +4,14 @@ import aboutBackImage from "../../assets/images/aboutBack.png"
 
 const About = () => {
     return (
-        <div className='my-40 px-10 sm:px-0 container flex flex-col lg:flex-row items-start lg:items-center lg:justify-around xl:justify-evenly '>
+        <div className='my-40  container flex flex-col lg:flex-row items-center lg:items-center lg:justify-around xl:justify-evenly '>
 
 
-            <div className='bg-no-repeat size-[280px] sm:size-[340px] md:size-[380px] lg:size-[440px] xl:size-[480px]' style={{ backgroundImage: `url(${aboutBackImage})` }}>
-                <img src={aboutImage} className='relative left-20 top-20  size-[280px] sm:size-[340px] md:size-[380px] lg:size-[440px] xl:size-[480px]' />
+            <div className='bg-no-repeat size-[220px] sm:size-[300px] md:size-[340px] lg:size-[390px] xl:size-[480px]' style={{ backgroundImage: `url(${aboutBackImage})` }}>
+                <img src={aboutImage} className='relative left-10 sm:left-20 top-10 sm:top-20  size-[220px] sm:size-[300px] md:size-[340px] lg:size-[390px] xl:size-[480px]' />
             </div>
 
-            <div className='mt-32 w-[70%] lg:mt-0 flex-[0.48] flex flex-col justify-center items-start gap-10 sm:gap-12 md:gap-14 lg:gap-16'>
+            <div className='mt-20 sm:mt-32 w-[70%] lg:mt-0 flex-[0.48] flex flex-col justify-center items-start gap-10 sm:gap-12 md:gap-14 lg:gap-16'>
 
                 <div className='space-y-2 lg:space-y-4 '>
                     <div className='text-[28px] lg:text-[30px] xl:text-[34px] font-bold leading-[44.2px]'>About Musik</div>
