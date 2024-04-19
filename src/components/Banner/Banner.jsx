@@ -49,12 +49,12 @@ const Banner = () => {
 
 
     return (
-        <div className=' relative bg-no-repeat w-full bg-cover h-[986px] flex flex-col' style={{ backgroundImage: `url(${bannerImage})` }}>
+        <div className=' relative bg-no-repeat w-full bg-cover h-[800px] md:h-[920px] xl:h-[986px] flex flex-col' style={{ backgroundImage: `url(${bannerImage})` }}>
             <Header />
 
-            <div className='container flex flex-col justify-center flex-1 w-[90%] sm:w-[90%] xl:w-[880px] space-y-12'>
+            <div className='container flex flex-col justify-center flex-1 w-[90%] sm:w-[90%] xl:w-[880px] space-y-8 md:space-y-12'>
 
-                <div className='text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[80px] capitalize font-bold text-center text-white leading-[87.77px]'>The Best experience of <br /> <span className='text-[#ffa3a3]'>music</span>  in 2021</div>
+                <div className='text-[45px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[80px] capitalize font-bold text-center text-white leading-[60px] md:leading-[87.77px]'>The Best experience of <br /> <span className='text-[#ffa3a3]'>music</span>  in 2021</div>
 
                 <div className='text-[12px] md:text-[16px] lg:text-[20px] xl:text-[24px] text-center text-white font-light'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ligula placerat, eleifend ex non, vehicula libero. Suspendisse eget tellus lectus.

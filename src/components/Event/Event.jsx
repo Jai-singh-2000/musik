@@ -10,7 +10,7 @@ const Event = () => {
     return (
         <div className='mt-20 md:mt-40 bg-gradient-to-b from-[#381DDB0D] to-[#381DDB00]'>
             <div className='py-40 container flex justify-center relative'>
-                <img src={blueOutlineBall} alt='blue-ball' className='absolute z-50 top-20 sm:top-[35rem] left-0' />
+                <img src={blueOutlineBall} alt='blue-ball' className='absolute z-50 top-10 sm:top-[35rem] left-6 sm:left-0' />
                 <img src={blueStairs} alt='blue-ball' className='absolute z-50 bottom-20 sm:bottom-64 right-0' />
                 <img src={redStairs} alt='blue-ball' className='absolute z-50 bottom-10 sm:bottom-48 right-0' />
 

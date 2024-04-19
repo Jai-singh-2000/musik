@@ -10,7 +10,7 @@ const About = () => {
             
             
             <img src={rightBlueScale} alt='blue-scale' className='absolute top-0 sm:top-10 left-0 sm:left-20' />
-            <img src={blueBall} alt='blue-ball' className='absolute top-10 sm:top-20 right-0 sm:right-20' />
+            <img src={blueBall} alt='blue-ball' className='absolute top-10 sm:top-20 right-10 sm:right-20' />
             <img src={bluePairStairs} alt='blue-ball' className='absolute bottom-0 sm:-bottom-20 left-0 sm:left-20' />
 
             <div className='bg-no-repeat size-[220px] sm:size-[300px] md:size-[320px] lg:size-[390px] xl:size-[480px]' style={{ backgroundImage: `url(${aboutBackImage})` }}>
