@@ -44,7 +44,7 @@ export default EventTable
 const Speaker = ({ image, name, booth }) => {
     return (
         <div className='flex flex-col md:flex-row gap-2'>
-            <img src={image} className='size-[40px] sm:size-[48px] md:size-[56px] rounded-full' />
+            <img src={image} className='size-[30px] sm:size-[48px] md:size-[56px] rounded-full' />
             <div className='text-[10px] md:text-[12px] sm:text-[14px] xl:text-[16px] leading-[24px]'>
                 <div className=' font-bold '>{name}</div>
                 <div className='text-[#949396]'>Booth: <span className='font-bold text-[#8e8d90] uppercase'>{booth}</span></div>
@@ -65,7 +65,7 @@ const TableHeading = () => {
 
 const TableRow = ({ time = "", content = "", button, children }) => {
     return (
-        <div className='grid grid-cols-12 py-8 px-4 md:px-8'>
+        <div className='grid grid-cols-12 py-8 px-3 md:px-8'>
             <div className='col-span-3 text-[10px] sm:text-[12px] md:text-[16px] leading-[24px] text-[#222222] '>{time}</div>
             <div className='col-span-4 text-[12px] md:text-[16px] leading-[24px] text-[#222222] font-bold w-[95%]'>{content}</div>
             <div className='col-span-3 flex flex-col gap-2 justify-center'>

@@ -6,9 +6,9 @@ import blueBall from "../../assets/tools/blueBall.png"
 const Price = () => {
     return (
         <div className='py-12 sm:py-14 md:py-16 lg:py-18 xl:py-20 container relative '>
-            <img src={redTriangle} alt='blue-ball' className='absolute z-50 top-60 sm:top-10 right-0 sm:-right-10' />
+            <img src={redTriangle} alt='blue-ball' className='absolute z-50 top-60 sm:top-10 right-4 sm:-right-10' />
             <img src={rightBlackScale} alt='blue-ball' className='absolute z-50 top-40 sm:top-20 left-0 sm:-left-48' />
-            <img src={blueBall} alt='blue-ball' className='absolute z-50 top-52 left-0 sm:-left-20' />
+            <img src={blueBall} alt='blue-ball' className='absolute z-50 bottom-72 left-5 sm:-left-20' />
             <div className='text-2xl sm:text-3xl xl:text-4xl font-bold text-center'>Choose a Tier that's right for you</div>
 
             <div className='flex flex-wrap justify-around gap-12 sm:gap-10 md:gap-8 xl:gap-8 mt-20 '>
